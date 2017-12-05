@@ -1,0 +1,14 @@
+**The following code demonstrates how to write a unit test in Spry.**
+
+```
+struct Calculator {
+    func add<T: ExpressibleByDouble>(_ v1: T, _ v2: T) -> T {
+        return v1 + v2
+    }
+}
+
+// Spry unit test
+expect(add(4, 5)).to(equal(9))
+```
+
+> See the Glossary for more.

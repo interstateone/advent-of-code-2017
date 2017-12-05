@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>expect</key>
+		<dict>
+			<key>Definition</key>
+			<string>Defines an expectation on a given actual value. The value given is evaluated lazily.</string>
+		</dict>
+		<key>to</key>
+		<dict>
+			<key>Definition</key>
+			<string>Tests that the actual value matches the specified matcher.</string>
+		</dict>
+		<key>toNot</key>
+		<dict>
+			<key>Definition</key>
+			<string>Tests that the actual value doesn&apos;t match the specified matcher.</string>
+		</dict>
+		<key>toEventually</key>
+		<dict>
+			<key>Definition</key>
+			<string>Tests that the actual value matches the specified matcher, asynchronously.</string>
+		</dict>
+		<key>beAKindOf</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is an instance of the given class.</string>
+		</dict>
+		<key>beAnInstanceOf</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is an exact instance of the given class.</string>
+		</dict>
+		<key>beCloseTo</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is close to the expected value.</string>
+		</dict>
+		<key>beEmpty</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is empty. Generally used collections and strings.</string>
+		</dict>
+		<key>beginWith</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value begins with the expected value.</string>
+		</dict>
+		<key>beGreaterThan</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is greater than the expected value.</string>
+		</dict>
+		<key>beGreaterThanOrEqualTo</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is greater than or equal to the expected value.</string>
+		</dict>
+		<key>beLessThan</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is less than the expected value.</string>
+		</dict>
+		<key>beLessThanOrEqualTo</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value isn less than or equal to the expected value.</string>
+		</dict>
+		<key>beIdenticalTo</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is identical to the expected value.</string>
+		</dict>
+		<key>beTrue</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is true.</string>
+		</dict>
+		<key>beFalse</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is false.</string>
+		</dict>
+		<key>beTruthy</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is not logically false.</string>
+		</dict>
+		<key>beFalsy</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is logically false.</string>
+		</dict>
+		<key>beNil</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value is nil.</string>
+		</dict>
+		<key>contain</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value contains the expected value.</string>
+		</dict>
+		<key>containElementSatisfying</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value contains the expected value satisfying a predicate.</string>
+		</dict>
+		<key>endWith</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value ends with the expected value.</string>
+		</dict>
+		<key>haveCount</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value has the expected count.</string>
+		</dict>
+		<key>match</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value matches the specified regex expression.</string>
+		</dict>
+		<key>satisfyAnyOf</key>
+		<dict>
+			<key>Definition</key>
+			<string>A matcher that succeeds when the actual value satisfies any of the expected predicates.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
